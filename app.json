@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "messenger",
-    "slug": "messenger",
+    "name": "weather-app",
+    "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "weather-app",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.weatherapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,7 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "Yersultan Kylyshev"
   }
 }
